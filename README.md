@@ -18,6 +18,36 @@ There is a single migration that will setup the base students table.
 
 ---
 
+## Set up Student Api in postman
+
+
+CREATE -POST 
+
+http://localhost:8000/students
+
+
+UPDATE -PUT
+
+http://localhost:8000/students/1
+
+
+ALL -GET
+
+http://localhost:8000/students
+
+
+ONE STUDENT -GET
+
+http://localhost:8000/students/1
+
+
+DELETE STUDENT -DELETE
+
+http://localhost:8000/students/1
+
+
+
+
 ## Official Documentation
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
